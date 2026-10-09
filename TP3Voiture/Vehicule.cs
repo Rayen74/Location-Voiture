@@ -16,6 +16,7 @@ public abstract class Vehicule : ILouable
        {
            if (value < 0 )
                throw new ArgumentException("le prix de location ne doit pas etre négatif");
+           _PrixLocationJour = value;
        }
    }
 
